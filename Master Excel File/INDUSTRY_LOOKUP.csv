@@ -1,0 +1,40 @@
+﻿Industry_Raw,Industry_Standardized,Industry_Category,Priority_Level
+Technology,Technology,High-Tech,A
+Tech,Technology,High-Tech,A
+Software,Technology,High-Tech,A
+Healthcare,Healthcare,Essential,A
+Manufacturing,Manufacturing,Industrial,B
+Financial Services,Financial Services,Financial,A
+Banking,Financial Services,Financial,A
+Finance,Financial Services,Financial,A
+Education,Education,Essential,B
+EdTech,Education,Essential,B
+Retail,Retail,Commercial,B
+E-commerce,Retail,Commercial,B
+Energy,Energy,Utility,A
+Utilities,Energy,Utility,A
+Automotive,Automotive,Industrial,B
+Auto,Automotive,Industrial,B
+Construction,Construction,Industrial,C
+Building,Construction,Industrial,C
+Food Service,Food Service,Commercial,C
+Restaurant,Food Service,Commercial,C
+Transportation,Transportation,Logistics,B
+Logistics,Transportation,Logistics,B
+Travel,Travel,Service,C
+Tourism,Travel,Service,C
+Insurance,Insurance,Financial,A
+Sports,Sports,Entertainment,C
+Legal,Legal,Professional,A
+Law,Legal,Professional,A
+Media,Media,Entertainment,B
+Entertainment,Media,Entertainment,B
+Agriculture,Agriculture,Primary,B
+Farming,Agriculture,Primary,B
+Defense,Legal,High-Tech,A
+Food & Beverage,Food Service,Primary,B
+Renewable Energy,Construction,Essential,A
+Apparel,Clothing,Primary,A
+Real Estate,Legal,Service,C
+Water Tech,Legal,Primary,A
+Environmental,Agriculture,Primary,C

@@ -1,0 +1,31 @@
+﻿State_Code,State_Name,Region,Territory_Manager
+TX,Texas,Southwest,John Smith
+CA,California,West,Jane Doe
+NY,New York,Northeast,Mike Johnson
+FL,Florida,Southeast,Sarah Wilson
+WA,Washington,West,Jane Doe
+IL,Illinois,Midwest,David Chen
+MI,Michigan,Midwest,David Chen
+MA,Massachusetts,Northeast,Mike Johnson
+AZ,Arizona,Southwest,John Smith
+CO,Colorado,West,Jane Doe
+GA,Georgia,Southeast,Sarah Wilson
+NV,Nevada,West,Jane Doe
+PA,Pennsylvania,Northeast,Mike Johnson
+OR,Oregon,West,Jane Doe
+DC,District of Columbia,Northeast,Mike Johnson
+TN,Tennessee,Southeast,Sarah Wilson
+IA,Iowa,Midwest,David Chen
+OH,Ohio,Midwest,David Chen
+NC,North Carolina,Southeast,Sarah Wilson
+VA,Virginia,Southeast,Sarah Wilson
+IN,Indiana,Midwest,David Chen
+WI,Wisconsin,Midwest,David Chen
+MN,Minnesota,Midwest,David Chen
+MD,Maryland,Northeast,Mike Johnson
+MO,Missouri,Midwest,David Chen
+AL,Alabama,Southeast,Sarah Wilson
+LA,Louisiana,Southwest,John Smith
+KY,Kentucky,Southeast,Sarah Wilson
+SC,South Carolina,Southeast,Sarah Wilson
+OK,Oklahoma,Southwest,John Smith

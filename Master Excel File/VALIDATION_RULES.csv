@@ -1,0 +1,21 @@
+﻿Rule_ID,Rule_Name,Field_Name,Rule_Type,Rule_Value,Error_Message,Active_Status
+VR001,Phone Format,Phone_Number,REGEX,^\(\d{3}\) \d{3}-\d{4}$,Invalid phone format,True
+VR002,Email Format,Email_Address,REGEX,^[^@]+@[^@]+\.[^@]+$,Invalid email format,True
+VR003,State Code,State,LIST,"TX,CA,NY,FL,WA,IL,MI,MA,AZ,CO,GA,NV,PA,OR,DC,TN,IA",Invalid state code,True
+VR004,ZIP Code,ZIP_Code,REGEX,^\d{5}(-\d{4})?$,Invalid ZIP format,True
+VR005,Company Name,Company_Name,LENGTH,>3,Company name too short,True
+VR006,Lead ID Format,Lead_ID,REGEX,^LD\d{3}$,Lead ID must be format LD###,True
+VR007,Contact Person,Contact_Person,LENGTH,>2,Contact person name too short,True
+VR008,Address Required,Company_Address,NOT_NULL,REQUIRED,Company address is required,True
+VR009,City Required,City,NOT_NULL,REQUIRED,City is required,True
+VR010,Industry Category,Industry,LIST,"Technology,Healthcare,Manufacturing,Software,Financial Services,Education,Retail,Energy,Automotive,Construction,Food Service,Transportation,Travel,Insurance,Sports,Legal,Media,Agriculture",Invalid industry category,True
+VR011,Lead Source,Lead_Source,LIST,"Website,Trade Show,Cold Call,LinkedIn,Referral,Google Ads,Email Campaign,Social Media",Invalid lead source,True
+VR012,Import Date,Import_Date,DATE,YYYY-MM-DD,Invalid date format,True
+VR013,Batch Format,Import_Batch,REGEX,^BATCH_\d{3}$,Batch must be format BATCH_###,True
+VR014,Account Manager,Account_Manager,LIST,"John Smith,Jane Doe,Mike Johnson,Sarah Wilson,David Chen",Invalid account manager,True
+VR015,Notes Length,Notes,LENGTH,<500,Notes too long (max 500 chars),True
+VR016,Email Domain,Email_Address,REGEX,@[a-zA-Z0-9.-]+\.(com|org|net|edu|gov)$,Invalid email domain,False
+VR017,Phone Area Code,Phone_Number,CUSTOM,AREA_CODE_CHECK,Invalid area code,False
+VR018,Duplicate Lead ID,Lead_ID,UNIQUE,UNIQUE_CHECK,Duplicate Lead ID found,True
+VR019,Future Date Check,Import_Date,CUSTOM,NOT_FUTURE,Import date cannot be in future,True
+VR020,Special Characters,Company_Name,REGEX,^[a-zA-Z0-9\s&.-]+$,Invalid characters in company name,True
